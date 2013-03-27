@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	maxImageWidth="774"
+	maxImageHeight="527"
+	imageQuality="80"
+	thumbWidth="60"
+	thumbHeight="60"
+	thumbQuality="90"
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	frameWidth="5"
+	stageHPadding="25"
+	stageVPadding="0"
+	stageVAlign="TOP"
+	stageHAlign="LEFT"
+	stageBorder="0"
+	showToolTips="false"
+	thumbNavStyle="NONE"
+	thumbHAlign="CENTER"
+	thumbVAlign="CENTER"
+	thumbDropShadow="false"
+	showThumbVisited="false"
+	showThumbLoadBar="false"
+	thumbColumns="4"
+	thumbRows="6"
+	indexPageName="gallery.php"
+	backgroundColor="FFFFFF"
+	showFullscreenButton="false"
+	showOpenButton="false"
+	frameColor="CCCCCC"
+	thumbFrameColor="CCCCCC"
+	thumbFrameHoverColor="660000"
+	thumbHoverFrameWidth="2"
+	captionBackOpacity="0.65"
+	enableCaptionLinks="false"
+	showImageNumber="false"
+	floatCaption="true"
+	captionFontColor="FFFFFF"
+	captionFontSize="16"
+	captionWidth="150"
+	captionHeight="50"
+	captionPosition="OVERLAY_BOTTOM"
+	captionPadding="7"
+	useFixedLayout="false"
+	galleryWidth="100%"
+	thumbNavPadding="10"
+	thumbNavBackOpacity="0.5"
+	thumbPosition="LEFT"
+
+>
+  <image imageURL="images/pupuplatter_horizontal.jpg"
+	thumbURL="thumbs/pupuplatter_horizontal.jpg"
+	linkURL="images/pupuplatter_horizontal.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Pu Pu Platter]]></caption>
+  </image>
+  <image imageURL="images/fried_shrimp.jpg"
+	thumbURL="thumbs/fried_shrimp.jpg"
+	linkURL="images/fried_shrimp.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Fried Shrimp]]></caption>
+  </image>
+  <image imageURL="images/general_chicken.jpg"
+	thumbURL="thumbs/general_chicken.jpg"
+	linkURL="images/general_chicken.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[General Chicken]]></caption>
+  </image>
+  <image imageURL="images/honey_walnut_shrimp.jpg"
+	thumbURL="thumbs/honey_walnut_shrimp.jpg"
+	linkURL="images/honey_walnut_shrimp.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Honey Walnut Shrimp]]></caption>
+  </image>
+  <image imageURL="images/mongolian_beef.jpg"
+	thumbURL="thumbs/mongolian_beef.jpg"
+	linkURL="images/mongolian_beef.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Mongolian Beef]]></caption>
+  </image>
+  <image imageURL="images/sesame_chicken.jpg"
+	thumbURL="thumbs/sesame_chicken.jpg"
+	linkURL="images/sesame_chicken.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Sesame Chicken]]></caption>
+  </image>
+  <image imageURL="images/string_beans.jpg"
+	thumbURL="thumbs/string_beans.jpg"
+	linkURL="images/string_beans.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[Caption]]></caption>
+  </image>
+  <image imageURL="images/IMG_3192.jpg"
+	thumbURL="thumbs/IMG_3192.jpg"
+	linkURL="images/IMG_3192.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_3216.jpg"
+	thumbURL="thumbs/IMG_3216.jpg"
+	linkURL="images/IMG_3216.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_3270_685.jpg"
+	thumbURL="thumbs/IMG_3270_685.jpg"
+	linkURL="images/IMG_3270_685.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_3208.jpg"
+	thumbURL="thumbs/IMG_3208.jpg"
+	linkURL="images/IMG_3208.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_3247_685.jpg"
+	thumbURL="thumbs/IMG_3247_685.jpg"
+	linkURL="images/IMG_3247_685.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_3282_685.jpg"
+	thumbURL="thumbs/IMG_3282_685.jpg"
+	linkURL="images/IMG_3282_685.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_3232.jpg"
+	thumbURL="thumbs/IMG_3232.jpg"
+	linkURL="images/IMG_3232.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/IMG_3316_685.jpg"
+	thumbURL="thumbs/IMG_3316_685.jpg"
+	linkURL="images/IMG_3316_685.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

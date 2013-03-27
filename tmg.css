@@ -1,0 +1,608 @@
+/*  
+Template name: PtwiggerL
+Release date: 2010
+Last updated: 2010
+Description: A simple and elegant template suitable for organizations.
+*/
+@font-face {
+	font-family: 'Gentium Basic';
+	font-weight: normal;
+	font-style: normal;
+	src: url(Gentium_Basic/GenBasR.ttf) format("truetype");
+}
+
+/* 
+   General 
+------------------------------------------------------------------- */
+body {
+	font-family: 'Gentium Basic', serif;
+	letter-spacing: 0.25px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	width: 1024px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	-moz-box-shadow: 0 0 5px 5px #CCCCCC;
+	-webkit-box-shadow: 0 0 5px 5px #999999;
+	box-shadow: 0 0 5px 5px #CCCCCC;
+	border: 1px solid #D2D2D2\9;
+	padding: 5px 25px;
+}
+
+h1, h2, h3, h4 {
+	margin: 0px;
+	border-bottom: 1px solid #999999;
+	color: #660000;
+}
+
+h3, h4 {
+	border-bottom: none;
+	margin-top: 5px;
+}
+
+/* Remove unwanted borders from images that are links */
+a img {
+	text-decoration: none;
+	border: 0 none;
+}
+
+ol.no-style {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* 
+   Header 
+------------------------------------------------------------------- */
+#header {
+	margin-bottom: 50px;
+}
+
+#home-header {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #FDF5E6;
+}
+
+#home-content {
+	padding: 0px 0px 10px 0px;
+}
+
+#home-info {
+	/* background-color: #FDF5E6; */
+	border-top: 1px solid #CCCCCC;
+	padding: 10px;
+}
+
+#page-header {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	border: 3px solid #CCCCCC;
+	border-right: 0px;
+	border-left: 0px;
+	padding: 10px;
+	padding-right: 0px;
+	margin-top: 20px;
+	background-color: #FDF5E6;
+}
+/* 
+   Home Content 
+------------------------------------------------------------------- */
+.nav {
+	overflow: hidden;
+	position: relative;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Gentium Basic', serif;
+	padding: 5px 0px;
+}
+
+.home-nav {
+	width: 1024px;
+	margin: auto;
+ 	border: 1px solid #CCCCCC; 
+	border-right: 0px;
+	border-left: 0px;
+	padding-bottom: 5px;
+	font-weight: normal;
+}
+
+.home-nav ul {
+	left: 50%;
+}
+
+.home-nav ul li {
+	right: 50%;
+}
+
+.home-nav li a {
+	border-bottom: 0px;
+}
+
+.nav ul {
+	clear: left;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	list-style: none;
+}
+
+.nav ul li {
+	list-style: none;
+	display: block;
+	float: left;
+	position: relative;
+}
+
+.nav li a {
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px solid #660000;
+	color: #660000;
+	letter-spacing: 0.125em;
+	width: auto;
+	margin: 0 0.5em;
+	padding: 0.2em 0.7em;
+}
+	
+.nav li a:hover {
+	color: #FFFFFF;
+	background-color: #660000;
+	border-bottom: 1px solid white;
+}
+
+li.current a {
+	color: #FFFFFF;
+	background-color: #660000;
+}
+
+.top-nav {
+	padding: 5px;
+	margin-left: 5px;
+	margin-top: 15px;
+	width: 730px;
+	float: right;
+	border: 0px solid #CCCCCC; /*change back to 10*/
+	/*border-top: 5px solid #CCCCCC;
+	border-bottom: 5px solid #CCCCCC; */
+}
+
+#top-info {
+	width: 100%;
+	clear: right;
+	text-align: center;
+}
+
+#top-info h3 {
+	margin: 0px;
+}
+
+.column-left, .column-right {
+	text-align: center;
+	float: left;
+	width: 45%;
+	margin:0px 10px 0px 0px;
+	padding: 5px;
+	padding-top: 0em;
+}
+
+.float-right {
+	float: right;
+}
+
+.small-column {
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+
+#top-info h4 {
+	text-align: center;
+	clear: both;
+}
+
+
+
+#content {
+	clear: both;
+	padding: 5px 0px;
+	margin: 0.5em 0em;
+	width: 100%;
+	overflow: hidden;
+}
+
+#content p {
+	font-size: 16px;
+	line-height: 1.25em;
+}
+
+.menu-column {
+	width: 200px;
+	min-height: 556px;
+	overflow: hidden;
+	background-color: #F5DBA6;
+	padding: 10px;
+	margin-right: 0px;
+}
+
+.menu-column ul {
+	list-style: none;
+	text-align: left;
+	line-height: 1.35em;
+	font-size: 1em;
+	padding-left: 20px;
+	padding-top: 5px;
+	margin-top: 0px;
+}
+
+.menu-column h1 {
+	margin: 0px;
+}
+
+#content.menu h1 {
+	margin: 0px;
+}
+
+.menu-column h1 {
+	margin-left: 0px;
+}
+
+.menu-column li a {
+	padding: 0.5em;
+	padding-bottom: 0.25em;
+	margin-bottom: 0.25em;
+	color: #663300;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-column li.current a {
+	color: #FFFFFF;
+	background-color: #663300;
+}
+
+.menu-column li a:hover {
+	color: #FFFFFF;
+	background-color: #663300;
+}
+
+#daily-specials {
+	border: 1px solid #660000;
+	padding: 5px;
+}
+
+.daily-specials-text {
+	color: red;
+	font-weight: bold;
+}
+
+.colored-background {
+	background-color: #FDF5E6;
+	padding: 5px;
+}
+
+h4.hours {
+	font-size: 18px;
+	color: #660000;
+	letter-spacing: 1px;
+	margin: 0px;
+	font-family: 'Gentium Basic';
+	font-weight: normal;
+}
+
+p.hours{
+	border-bottom: 1px solid #CCCCCC;
+}
+
+#home-info * p {
+	margin: 10px 0px;
+	padding: 3px;
+}
+
+/*
+	Slideshow
+*/
+
+#container {
+	width:1024px;
+	padding:0px;
+	margin-bottom: 10px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+
+#example {
+	width:1000px;
+	height:460px;
+	position:relative;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+#slides {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:1000px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:1000px;
+	height:450px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	top:107px;
+	left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#slides .next {
+	left: 585px;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/* Lunch and Dinner */
+
+#menu {
+	padding: 0px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	width: 730px;
+	min-height: 566px;
+	float: left;
+	border-left: 10px solid #999999;
+	background-color: #FDF5E6;
+}
+
+#menu dl {
+	text-align: left;
+	clear:both;
+	color: black;
+	margin: 0px;
+}
+
+#menu dt {
+	width: 100%;
+	float: left;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 0.6em;
+	color: #660000;
+}
+
+#menu dd {
+	width: 70%;
+	float: left;
+	letter-spacing: 0em;	
+}
+
+#menu dd.category-notes {
+		width: 100%;
+		color: #663300;
+}
+
+#menu dd.category-head {
+	font-size: 1.7em;
+	font-weight: bold;
+	padding-bottom	: 0em;
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 0px;
+	width: 100%;
+	margin: 7px 0px;
+	padding-top: 7px;
+	color: #660000;
+	border-bottom: 3px solid #999999;
+}
+
+#menu .price {
+	color: #333333;
+	width: 12.5%;
+	float: left;
+}
+
+.print-link {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 0.9em;
+	text-align: right;
+}
+
+#menu ol, #menu ol li {
+	margin-top: 0px;
+}
+
+/* Location
+------------------------------------------------------------------- */
+.column-container {
+	overflow: hidden;
+	text-align: center;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.image {
+	margin: 0.5em 0em;
+}
+
+.fancy-image {
+	-moz-box-shadow: 0 0 5px 5px #CCCCCC;
+	-webkit-box-shadow: 0 0 5px 5px#999;
+	box-shadow: 0 0 5px 5px #CCCCCC;
+}
+
+.marginless-image {
+	margin: 0px;
+}
+
+.column-three-left, .column-three-mid, .column-three-right {
+	width: 33%;
+	height: auto;
+	float: left;
+	margin: 0em;
+	margin-top: 0em;
+	padding: 10px;
+	padding-top: 0em;
+}
+
+.cupertino {
+	letter-spacing: 1px;
+	border: 0px;
+	color: #660000;
+	text-align: center;
+}
+.column-container * h2, .column-container * h3 {
+	margin: 0px;
+}
+
+.column-container * h2 {
+	border-top: 2px solid #CCCCCC;
+	padding: 0.5em;
+}
+
+.column-three-right {
+	width: auto;
+}
+
+.column-no-border {
+	border: none;
+}
+
+.text-left {
+	text-align: left;
+}
+
+/* 
+   Photos 
+------------------------------------------------------------------- */
+.photos {
+		padding: 10px;
+}
+
+/* 
+   Footer 
+------------------------------------------------------------------- */
+#footer {
+	margin-top: 0px;
+	clear: both;
+	border-top: 1px solid #CCCCCC;
+	padding: 20px 10px 10px 10px;
+	font-size: 1.05em;
+	min-height: 50px;
+}
+
+table {
+	text-align: left;
+	font-size: 1em;
+	margin: auto;
+	margin-top: 0px;
+}
+
+.location table {
+	margin: 10px 0px 0px 0px;
+	font-size: 1em;
+}
+
+td {
+	padding: 2px;
+	padding-right: 10px;
+}
+
+.fb-like {
+	float: left;
+}
+
+/* Pictures */
+
+.gray-frame {
+	border: 1px solid #999999;
+	padding: 5px;
+	margin-bottom: 1.5em;
+}
